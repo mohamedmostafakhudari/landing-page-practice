@@ -3,7 +3,51 @@ header {
 }
 
 .hero {
+  background-color: var(--bg-neutral-1);
+  color: var(--text-neutral-3);
 
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.hero > .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.hero > .container > .hero-text > h1 {
+  font-size: clamp(var(--text-info-heading, 36px), calc(1.5rem + 2vw), var(--text-hero, 48px));
+  color: var(--text-neutral-2);
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.hero > .container > .hero-text > .text-hero-secondary {
+  max-width: 47ch;
+  text-wrap: pretty;
+}
+
+.hero > .container > .hero-image > .placeholder {
+  font-size: var(--text-base);
+
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero > .container > .hero-text {
+  flex: 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hero > .container > .hero-image {
+  flex-basis: 520px;
 }
 
 .info {
