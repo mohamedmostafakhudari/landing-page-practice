@@ -1,0 +1,98 @@
+:root {
+  /* Typography */
+  --font-family: "Roboto", sans-serif;
+  --text-base: 16px;
+  --text-logo: 24px;
+  --text-hero: 48px;
+  --text-hero-secondary: 18px;
+  --text-info-heading: 36px;
+  --text-quote: 36px;
+
+  /* Colors */
+  --text-primary: #3882F6;
+  --text-neutral-1: #1F2937;
+  --text-neutral-2: #F9FAF8;
+  --text-neutral-3: #E5E7EB;
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-neutral-1 {
+  color: var(--text-neutral-1);
+}
+
+.text-neutral-2 {
+  color: var(--text-neutral-2);
+}
+
+.text-neutral-3 {
+  color: var(--text-neutral-3);
+}
+
+.bg-primary {
+  background-color: var(--text-primary);
+}
+
+.bg-neutral-1 {
+  background-color: var(--text-neutral-1);
+}
+
+.bg-neutral-2 {
+  background-color: var(--text-neutral-2);
+}
+
+.bg-neutral-3 {
+  background-color: var(--text-neutral-3);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.text-hero-secondary {
+  font-size: var(--text-hero-secondary, 18px);
+  color: var(--text-neutral-3, #E5E7EB);
+}
+
+/* Components */
+.logo {
+  font-size: var(--text-logo, 24px);
+  color: var(--text-neutral-2, #F9FAF8);
+}
+
+.hero {
+  font-size: var(--text-hero, 48px);
+  color: var(--text-neutral-2, #F9FAF8);
+}
+
+.cta-btn, .cta {
+  background-color: var(--bg-primary, #3882F6);
+}
+
+.info-heading {
+  font-size: var(--text-info-heading, 36px);
+  color: var(--text-neutral-1, #1F2937);
+  font-weight: 900;
+}
+
+.quote {
+  background-color: var(--bg-neutral-3, #E5E7EB);
+  font-size: var(--text-quote, 36px);
+  color: var(--text-neutral-1, #1F2937);
+  font-weight: 300;
+  font-style: italic;
+}
