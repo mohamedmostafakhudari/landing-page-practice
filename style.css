@@ -99,5 +99,36 @@ header {
 }
 
 .signup {
+  padding-block: 7rem;
+}
 
+.cta-box {
+  color: var(--bg-neutral-3);
+
+  padding: 3rem 9rem;
+  border-radius: 0.6rem;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-box > .text > h2 {
+  color: var(--bg-neutral-2);
+}
+
+.cta-box .cta-btn {
+  border: 2px solid var(--bg-neutral-2);
+
+  transition: rotate 150ms, scale 200ms, translate 150ms;
+}
+
+.cta-box .cta-btn:hover {
+  rotate: -1deg;
+  scale: 110%;
+  translate: 1px 1px;
+}
+
+footer {
+  background-color: var(--bg-neutral-1);
+  color: var(--bg-neutral-2);
 }
