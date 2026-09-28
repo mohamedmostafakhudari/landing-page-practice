@@ -1,7 +1,7 @@
 # landing-page-practice
 This is a landing page practice project from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page)
 
-- [Live Preview]()
+- [Live Preview](https://mohamedmostafakhudari.github.io/landing-page-practice/)
 ## Learning Goals
 - Transform given design to HTML/CSS
 - Page layout
