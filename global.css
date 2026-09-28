@@ -22,6 +22,13 @@
 body {
   font-family: var(--font-family);
   color: var(--text-neutral-1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 h1, h2 {
@@ -197,4 +204,12 @@ button {
   border-radius: 0.5rem;
 
   cursor: pointer;
+}
+
+footer {
+  background-color: var(--bg-neutral-1);
+  color: var(--bg-neutral-2);
+  text-align: center;
+
+  padding-block: 2rem;
 }
